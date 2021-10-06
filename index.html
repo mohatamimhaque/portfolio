@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Mohatamim</title>
 </head>
-<body>
+<body class="light">
     
     <div class="container">
     <nav class="menubar flex">
@@ -22,8 +22,12 @@
         <a href="#team" class="deactive">Team</a>
         <a href="#project" class="deactive">Project</a>
         <a href="#client" class="deactive">Client</a>
-        <a href="#contact" class="deactive">Contact</a>
-        
+        <div class="btn">
+            <div class="div"></div>
+        </div>        
+        <div class="btn2">
+            <div class="div"></div>
+        </div>        
     </nav>
 
      
@@ -218,7 +222,26 @@
     
 
 
-
     
+    
+
+
+   <script>
+        var btn = document.querySelector(".btn");
+        var light = document.querySelector(".light");
+
+        btn.onclick = function(){
+            light.classList.toggle("dark")
+        }
+        var btn = document.querySelector(".btn2");
+        var light = document.querySelector(".light");
+
+        btn.onclick = function(){
+            light.classList.toggle("aqua")
+        }
+ 
+   
+
+   </script> 
 </body>
 </html>
