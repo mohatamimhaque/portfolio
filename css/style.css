@@ -560,18 +560,18 @@ a{
     text-align: center;
     color:white;
 }
-.social-media{
+.talk .social-media{
     display: flex;
     margin-left:15px;
 }
-.social-media a{
+.talk .social-media a{
    text-decoration: none;
    padding:0 20px;
    color:white;
    margin:0 5%
 
 }
-.social-media i{
+.talk .social-media i{
     color: rgb(98, 122, 255);
 
 } 
