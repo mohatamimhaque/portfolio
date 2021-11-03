@@ -16,7 +16,7 @@ a{
     width:70%;
     margin:35px auto;
 
-    position:relation;
+    position:relative;
 
 }
 .menubar{
@@ -552,7 +552,7 @@ a{
 .talk{
     width: 100%;
     margin:auto;
-
+position:absolute;
     border-radius: 5px;
     padding: 12px;
     padding-bottom: 18px;
@@ -576,5 +576,7 @@ a{
 }
 .talk .social-media i{
     color: rgb(98, 122, 255);
+	border-radius:2px;
+	
 
 } 
