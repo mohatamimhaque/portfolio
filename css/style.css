@@ -561,7 +561,7 @@ a{
 }
 .talk h2{
     text-align: center;
-    color:white;
+    color:black;
 }
 .talk .social-media{
     display: flex;
@@ -570,7 +570,7 @@ a{
 .talk .social-media a{
    text-decoration: none;
    padding:0 20px;
-   color:white;
+   color:black;
    margin:0 5%
 
 }
