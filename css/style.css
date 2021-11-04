@@ -485,6 +485,84 @@ a{
     text-align: center;
     color: white;
 }
+.team .socail-media{
+    margin:15px 0;
+}
+.team .social-media a{
+    font-size:22px;
+    padding:10px;
+   border-radius: 50%;
+}
+
+.team .social-media .fa-facebook{
+    background-color: rgb(21, 120, 250);
+    color:white;
+    font-size:22px;
+    padding:10px 14px;
+    
+}
+.team .social-media .fa-facebook:hover{
+    box-shadow: 0 0 5px rgb(21, 120, 250);
+
+}
+
+.team .social-media .fa-twitter{
+    color: rgb(62, 167, 253);
+    background-color:rgb(243, 236, 236);
+    margin:0 8px;
+}
+.team .social-media .fa-twitter:hover{
+    box-shadow: 0 0 5px rgb(243, 236, 236);
+}
+
+.team .social-media .fa-instagram{
+    background-color: rgb(247, 179, 33);
+    color:white;
+}
+
+.team .social-media .fa-instagram:hover{
+    box-shadow: 0 0 5px rgb(247, 179, 33);
+}
+
+
+/*--------------------talk------------------------*/
+.talk{
+    width: 100%;
+    margin:auto;
+    position:absolute;
+    border-radius: 5px;
+    padding: 12px;
+    padding-bottom: 18px;
+
+
+}
+.talk h2{
+    text-align: center;
+    color:black;
+}
+.talk .social-media{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(70px,1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: -20px;
+}
+.talk .social-media a{
+   text-decoration: none;
+   padding:0 20px;
+   color:black;
+   margin:0 5%
+
+}
+.talk .social-media i{
+    color: rgb(98, 122, 255);
+    border-radius:2px;
+} 
+
+
+
+
+
 
 .dark{
     background-color: rgb(12, 12, 12);
@@ -504,7 +582,7 @@ a{
 
 
 
-
+/*----------------------color------------------------*/
 
 .dark .btn{
     width: 14px;
@@ -546,37 +624,3 @@ a{
 
 
 
-
-/*--------------------talk------------------------*/
-.talk{
-    width: 100%;
-    margin:auto;
-    position:absolute;
-    border-radius: 5px;
-    padding: 12px;
-    padding-bottom: 18px;
-
-
-}
-.talk h2{
-    text-align: center;
-    color:black;
-}
-.talk .social-media{
-    display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(70px,1fr));
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    margin-top: -20px;
-}
-.talk .social-media a{
-   text-decoration: none;
-   padding:0 20px;
-   color:black;
-   margin:0 5%
-
-}
-.talk .social-media i{
-    color: rgb(98, 122, 255);
-    border-radius:2px;
-} 
