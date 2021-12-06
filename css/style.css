@@ -231,6 +231,8 @@ a{
 
 .about p{
     text-indent: 0em;
+    text-align: justify;
+
 }
 .about ul{
     display:flex;
@@ -410,7 +412,7 @@ a{
 .team{
     width:100%;
     margin-top: 50px;
-    position:absolute;
+  
 }
 .team h2{
    text-align: center;
@@ -592,22 +594,87 @@ a{
 .talk h2{
     text-align: center;
     color:black;
+    margin: 30px;
 }
+
 .talk .social-media{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(70px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(45px,1fr));
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    margin-top: -20px;
 }
 .talk .social-media a{
-   text-decoration: none;
-   padding:0 20px;
-   color:black;
-   margin:0 5%
-
+    display:flex;
+    margin:auto;
+}
+.talk .social-media a p{
+    font-size:20px;
+    font-weight: 600;
+    display: none;
 }
 .talk .social-media i{
-    color: rgb(98, 122, 255);
-    border-radius:2px;
-} 
+    font-size: 25px;
+    margin-top:3px;
+    margin-left:3px;
+    color:white;
+    margin:au
+    to;
+    
+
+}
+
+.talk .social-media a:first-child{
+    width:32px;
+    height:32px;
+    background-color:#4267B2;
+    border-radius: 5px;
+    border-radius: 0 4px 4px #4267B2;
+
+}
+.talk .social-media a:first-child i{
+   color:white;
+   margin:auto;
+}
+.talk .social-media a:nth-child(2){
+    width:32px;
+    height:32px;
+    background-image: linear-gradient(#8a3ab9 , #e95950 , #bc2a8d , #fccc63 , #fbad50 , #cd486b);
+    border-radius: 5px;
+    box-shadow: 0 0 4px yellow;
+
+}
+.talk .social-media a:nth-child(2) i{
+   color:white;
+   margin:auto;
+}
+.talk .social-media a:nth-child(3){
+    width:32px;
+    height:32px;
+    background-color:#2867B2;;
+    border-radius: 5px;
+    box-shadow: 0 0 4px yellow;
+
+}
+.talk .social-media a:nth-child(3) i{
+   color:white;
+   margin:auto;
+}
+
+.talk .social-media a:nth-child(4) i{
+   color:#1d3841;
+   margin:auto;
+   font-size:36px;
+}
+.talk .social-media a:nth-child(5){
+    width:32px;
+    height:32px;
+    background-color:#131418;
+    border-radius: 5px;
+    box-shadow: 0 0 4px yellow;
+
+}
+.talk .social-media a:nth-child(5) i{
+   color:white;
+   font-size: 22px;
+   margin:auto;
+}
